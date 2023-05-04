@@ -413,7 +413,6 @@ function badthings(thisball, owner) {
 			player.scaleX = player.scaleFactor;
 			break;
 		case 3:
-			putondisplay("msg", "CONTROLES INVERTIDOS");
 			reversecontrol = true;
 			break;
 	}
