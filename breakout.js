@@ -399,7 +399,7 @@ function goodthings(thisball, owner) {
 
 function badthings(thisball, owner) { 
     
-	let seed = Phaser.Math.Between(1,3); // 20% 
+	let seed = Phaser.Math.Between(1,10); // 30% are the odds of a bad thing happen 
 
 	switch(seed) {
 
