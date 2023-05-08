@@ -20,7 +20,7 @@ var config = {
 			debug: false,
 			checkCollision: {
 				up: true,
-				down: true,
+				down: false,
 				left: true,
 				right: true   
 			}  
@@ -142,6 +142,8 @@ function update ()
 	}
 
 	if (aliveballs <= 0) {
+
+		putondisplay("score", "GAME OVER!");
 
 		if (player.score > localStorage.getItem("highscore")) { 
         		putondisplay("msg","HIGHSCORE!!!!!"); 
