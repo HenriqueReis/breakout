@@ -20,7 +20,7 @@ var config = {
 			debug: false,
 			checkCollision: {
 				up: true,
-				down: true,
+				down: false,
 				left: true,
 				right: true   
 			}  
@@ -143,15 +143,17 @@ function update ()
 
 	if (aliveballs <= 0) {
 
+		putondisplay("score", "GAME OVER!");
+		putondisplay("pointsfactor", "press F5 to play again...");
+
 		if (player.score > localStorage.getItem("highscore")) { 
-        		putondisplay("msg","HIGHSCORE!!!!!"); 
-            		localStorage.setItem("highscore", player.score);
+        		putondisplay("level","NEW HIGH SCORE!!!!!" ); 
+        		putondisplay("vel", player.score + " points!"); 
+            	localStorage.setItem("highscore", player.score);
         	}
 
 		gameOver=true;
-		
 	} 
-
 
 	// AUTOMATIC PILOT PLAYER 
  
