@@ -141,7 +141,16 @@ function update ()
 		}
 	}
 
-	if (aliveballs <= 0) {gameOver=true;} 
+	if (aliveballs <= 0) {
+
+		if (player.score > localStorage.getItem("highscore")) { 
+        		putondisplay("msg","HIGHSCORE!!!!!"); 
+            		localStorage.setItem("highscore", player.score);
+        	}
+
+		gameOver=true;
+		
+	} 
 
 
 	// AUTOMATIC PILOT PLAYER 
