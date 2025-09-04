@@ -11,8 +11,7 @@ Developed by **Henrique Reis**.
 
 ## 🎮 Gameplay Preview
 
-> 📸 Add here a **GIF** or **screenshot** of the game in action.  
-> Example (replace with your own):  
+> 📸  
 
 ![Game Preview](assets/demo.gif)
 
