@@ -45,6 +45,64 @@ Developed by **Henrique Reis**.
 
 ## 🚀 Getting Started
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/breakout-phaser.git
+Since this is a **JavaScript + Phaser** project, it must be served through a **web server** (opening `index.html` directly may not work in some browsers).
+
+Below are some suggested methods — but you are free to set up your own web server. These are **not the only ways** to run the game:
+
+---
+
+### 🔹 1. Run with VS Code + Live Server
+1. Install the **Live Server** extension on [Visual Studio Code](https://code.visualstudio.com/).
+2. Open the project folder.
+3. Right-click on `index.html` → **"Open with Live Server"**.
+4. The game will run in your browser at 👉 `http://localhost:5500`.
+
+---
+
+### 🔹 2. Run with Node.js (http-server)
+If you have [Node.js](https://nodejs.org/) installed, open a terminal in the project folder and run:
+
+~~~bash
+npx http-server .
+~~~
+
+This will start a local server at 👉 `http://localhost:8080`.
+
+---
+
+### 🔹 3. Run with Python (built-in server)
+If you have Python installed, you can run a quick local server:
+
+- Python 3:
+
+~~~bash
+python -m http.server 8000
+~~~
+
+- Python 2:
+
+~~~bash
+python -m SimpleHTTPServer 8000
+~~~
+
+Access the game at 👉 `http://localhost:8000`.
+
+---
+
+### 🔹 4. Deploy on GitHub Pages
+1. Push your project to a GitHub repository.
+2. Go to **Settings > Pages > Source**.
+3. Set it to **main branch / root**.
+4. Your game will be available online at:  
+   `https://your-username.github.io/your-repo/`
+
+---
+
+### 🔹 5. Use Apache or Nginx
+If you already run a local or remote server (like Apache or Nginx), you can simply place the project folder in your server’s **document root** (e.g., `/var/www/html/` on Linux).  
+Then access it from your browser using your configured hostname or `localhost`.
+
+---
+
+✨ Tip: GitHub Pages is the easiest way to **share your game** with friends, recruiters, or the dev community.  
+🛠️ Any HTTP server will work — choose the option that best fits your workflow.
