@@ -104,5 +104,4 @@ Then access it from your browser using your configured hostname or `localhost`.
 
 ---
 
-✨ Tip: GitHub Pages is the easiest way to **share your game** with friends, recruiters, or the dev community.  
 🛠️ Any HTTP server will work — choose the option that best fits your workflow.
