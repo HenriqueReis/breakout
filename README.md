@@ -13,7 +13,7 @@ Developed by **Henrique Reis**.
 
 > 📸
 > 
-<img src="caminho/do/seu.gif" alt="Demo do jogo" width="400">
+<img src="assets/demo.gif" alt="Demo do jogo" width="400">
 
 
 ---
