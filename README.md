@@ -2,7 +2,7 @@
 
 ![Phaser](https://img.shields.io/badge/Phaser-Game-blueviolet?logo=javascript) 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow) 
-![License](https://img.shields.io/badge/license-MIT-green)
+ [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 A modern take on the **classic Breakout arcade game**, built in **JavaScript** with the [Phaser framework](https://phaser.io/).  
 Developed by **Henrique Reis**.
