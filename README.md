@@ -90,7 +90,7 @@ Access the game at 👉 `http://localhost:8000`.
 
 ### 🔹 4. Use Apache or Nginx
 If you already run a local or remote server (like Apache or Nginx), you can simply place the project folder in your server’s **document root** (e.g., `/var/www/html/` on Linux).  
-Then access it from your browser using your configured hostname or `localhost`.
+Then access it from your browser using your configured hostname or `localhost/breakout` if you haven't changed the folder name.
 
 ---
 
