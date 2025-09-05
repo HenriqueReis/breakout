@@ -11,9 +11,10 @@ Developed by **Henrique Reis**.
 
 ## 🎮 Gameplay Preview
 
-> 📸  
+> 📸
+> 
+<img src="caminho/do/seu.gif" alt="Demo do jogo" width="400">
 
-![Game Preview](assets/demo.gif)
 
 ---
 
