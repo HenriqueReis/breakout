@@ -88,16 +88,7 @@ Access the game at 👉 `http://localhost:8000`.
 
 ---
 
-### 🔹 4. Deploy on GitHub Pages
-1. Push your project to a GitHub repository.
-2. Go to **Settings > Pages > Source**.
-3. Set it to **main branch / root**.
-4. Your game will be available online at:  
-   `https://your-username.github.io/your-repo/`
-
----
-
-### 🔹 5. Use Apache or Nginx
+### 🔹 4. Use Apache or Nginx
 If you already run a local or remote server (like Apache or Nginx), you can simply place the project folder in your server’s **document root** (e.g., `/var/www/html/` on Linux).  
 Then access it from your browser using your configured hostname or `localhost`.
 
